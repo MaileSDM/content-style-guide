@@ -396,6 +396,10 @@ Do not use ampersands unless one is part of a company or brand name.
 When referring generally to a file extension type, use all uppercase without a period. Add a lowercase **s** to make plural.
 
 - GIF
+
+When referring to SSH files in general, use all lowercase with a period in order to distinguish it from an SSH session.
+
+- Once you have the Capture ID, you can use `sdm ssh split` to extract all captures from a log file. They are saved as individual `.ssh` files named after the Capture ID.
 - PDF
 - HTML
 - JPGs

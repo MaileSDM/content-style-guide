@@ -86,6 +86,7 @@ When cross-referencing a non-strongDM page, such as documentation or a technical
 - You can read more about [AWS KMS](https://docs.aws.amazon.com/kms/latest/cryptographic-details/intro.html) in Amazon’s documentation.
 
 #### Images
+
 Images should be saved as PNG. There is no default size, but make sure to run images through tinypng.com before uploading them, so that your images are not gigantic.
 
 Image captions should describe what is shown in one sentence or less (fragments are OK), and they should end with a period if the captions are complete sentences.

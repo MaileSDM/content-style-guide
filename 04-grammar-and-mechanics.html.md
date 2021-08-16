@@ -102,6 +102,7 @@ In web content, like blogs, it’s acceptable to use numerals in headings or “
 - 2. Trying to Operationalize Zero Trust with A Hodgepodge of Tools
 
 #### In Documentation headings
+
 Use all the rules that are described in the Numbers section of this guide (except for the rules given for blog headings).
 
 #### Punctuation

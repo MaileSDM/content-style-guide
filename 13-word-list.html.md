@@ -12,6 +12,7 @@ These words can be slippery. Here's how we write them. (If it is not on this lis
 - add on (v.)
 - ad hoc (adj., adv.)
 - Admin UI (n.)
+- Amazon MQ (n.)
 - autofill (adj.)
 - AWS Fargate (n.)
 - AWS Management Console (n.)
@@ -143,6 +144,7 @@ These words can be slippery. Here's how we write them. (If it is not on this lis
 
 ### R
 
+- RabbitMQ (n.)
 - Reply-to name (in.; in reference to email)
 - retweet (n., v.)
 - Rsyslog (n.)
@@ -160,7 +162,7 @@ These words can be slippery. Here's how we write them. (If it is not on this lis
 - straightforward (adj.)
 - strongDM (n.)
 - Subject line (in reference to email)
-- sync (v.)
+- sync (n., v.)
 - syslog (adj., n.)
 
 ### T
@@ -245,6 +247,7 @@ These words can be slippery. Here's how we write them. (If it is not on this lis
 ### Just no
 
 - best-in-breed
+- Man-in-the-middle Attack (MITM)
 
 ### Silicon Valley cliches
 

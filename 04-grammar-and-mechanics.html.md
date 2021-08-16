@@ -97,8 +97,11 @@ Sometimes it feels weird to use these rules. If it is an expression that, in com
 
 In web content, like blogs, it’s acceptable to use numerals in headings or “listicles” (where the headings are used to section off list items), as the numerals are used for SEO purposes and they reduce the character count in headings.
 
-- 4 Barriers to Implementing Zero Trust Network Access (ZTNA)
-- 1. Complex Infrastructure and Hybrid Environments
+Examples:
+
+4 Barriers to Implementing Zero Trust Network Access (ZTNA)
+
+1. Complex Infrastructure and Hybrid Environments
 - 2. Trying to Operationalize Zero Trust with A Hodgepodge of Tools
 
 #### In Documentation headings

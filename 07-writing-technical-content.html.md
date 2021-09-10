@@ -23,6 +23,12 @@ When relevant, provide a brief outline of an article's focus in an introductory 
 
 Technical content articles vary in target audience, goal, and tone depending on the task at hand and the anticipated audience for the articles.
 
+strongDM documentation typically consists of the following types of technical content:
+- **Informational**, which explains concepts, terms, how things work, and so forth
+- **Instructional**, which provides the purpose of a task and teaches the reader how to accomplish it
+- **Procedural**, which is an ordered set of steps that must be followed exactly in order to complete a task
+- **Reference**, which presents technical information about the product, such deployment settings, CLI commands, UI navigation, and glossary terms
+
 ## Guidelines
 
 ### Writing technical content

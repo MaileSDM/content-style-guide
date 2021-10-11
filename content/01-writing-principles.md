@@ -17,10 +17,27 @@ With every piece of content we publish, we aim to:
 
 In order to achieve those goals, we make sure our content is:
 
-* **Clear.** Understand the topic you are writing about. Use simple words and sentences.
+* **Clear.** Understand the topic you are writing about. Use simple words and sentences.  Speak clearly, factually, and honestly. Don’t use Marketing speak.
 
-* **Useful.** Before you start writing, ask yourself: What purpose does this serve? Who is going to read it? What do they need to know?
+* **Crisp.** Don’t waste words. Be friendly but succinct.
 
-* **Friendly.** Write like a human. Do not be afraid to break a few rules if it makes your writing more relatable. All of our content should be professional, but informal.
+* **Focused.** Stay on topic.  (Occasional exceptions to this rule should use callouts [info, tip, warning], and only be used to improve the user’s chances of success.)
 
-* **Appropriate.** Write in a way that suits the situation. Just like you do in face-to-face conversations, adapt your tone depending on who you are writing to and what you are writing about.
+* **Specific.** Don’t talk about general theory, or speak in generalities unless necessary.
+
+* **Non-Prescriptive.** Don’t tell people how to run their business or do their job.
+
+* **Friendly.** Don’t try to be funny. Friendly, not funny.
+
+* **strongDM-centric.** Don’t document other companies’ products. It’s a slippery slope.
+
+
+
+
+
+
+
+
+
+
+

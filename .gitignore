@@ -1,0 +1,13 @@
+.boogi
+.cache
+.generated.config.js
+.idea/
+.vscode/
+*.env
+*.iml
+*.log
+*DS_Store
+build
+node_modules
+public
+reduxcache*

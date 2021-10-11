@@ -1,48 +1,119 @@
-# Welcome to the strongDM Content Style Guide
+# strongDM Content Style Guide Docs
 
----
+**To file a docs request, please visit https://github.com/strongdm/docs/issues. Thanks!**
 
-## NOTE: This guide is WIP and is not currently being consulted for strongDM content
+## Live site
+https://sdm-content-style-guide.netlify.app/
 
----
+## Local installation
 
-This style guide is primarily for strongDM employees who work on the strongDM documentation, but we hope it is helpful to other organizations as well.
+1. Make sure you have **yarn** installed first.
 
-This guide began as a fork of [Mailchimp's Content Style Guide](https://github.com/mailchimp/content-style-guide).
+   ```bash
+   brew install yarn
+   ```
 
-Whether or not you work at strongDM, we welcome your thoughts and suggestions. To learn more about sending us feedback or adapting this guide to create your own, see the Contributing file.
+2. Install the **boogi-cli**.
 
-## Creating a New File
+   ```bash
+   npm install -g boogi-cli
+   ```
 
-This guide is a collection of Markdown files. This is a plaintext format that easily converts to HTML. Read more about it [here](http://daringfireball.net/projects/markdown/). Be sure you name your files without spaces with either an `.md` or `.markdown` extension.
+3. Clone the repo.
 
-The files in this guide are prefixed with a double digit to set order. Make sure your file starts with a number that will place your new content in the desired position (eg: `04-`) and change the prefixes of the other files to reflect this change in order.
+   ```bash
+   git clone https://github.com/strongdm/content-style-guide.git
+   ```
 
-## Markdown
+   or
 
-Markdown is handy because you can write your content without HTML tags. Here are some tips to help you control the layout of your text.
+   ```bash
+   gh repo clone strongdm/content-style-guide
+   ```
 
-### Line Breaks
+4. Initialize BooGi.
 
-If you want a line to break to the next line but do not want to start a new paragraph, end the line with two spaces. This will render a `<br>` tag.
+   ```bash
+   cd content-style-guide
 
-### Widows
+   yarn
+   ```
 
-The best way to prevent widows is to type `&nbsp;` in the space between the last two words in a title or paragraph.
+## Running the local server
 
-### Tables
+To start development server with live reload when something changes:
 
-Tables can be written in Markdown by following this general style:
-
-```markdown
-| header 1 | header 2 |
-| -------- | -------- |
-| cell 1   | cell 2   |
-| cell 3   | cell 4   |
+```bash
+boogi develop -p 8000
 ```
 
-The spacing is not important for the table to be rendered properly, and the cells do not have to line up. However it does help with readability when creating and editing tables.
+`boogi develop` also triggers an Algolia index update.
 
-### HTML Tags in Text
+## Editing Content
 
-When displaying HTML tags as text in content, be sure to wrap them in backticks, eg: \``<h3>`\`.
+Markdown is located in the "content" folder of the content-style-guide repo.
+
+There are some relevant pages in the Boogi Docs:
+
+- [Navigation](https://boogi.netlify.app/configuration/navigation) - a good primer on the structure of the content folder
+- [Markdown Cheatsheet](https://boogi.netlify.app/editing/markdown)
+- [Jargon](https://boogi.netlify.app/editing/rich_content/abbreviations) (aka variables)
+- [Custom Components](https://boogi.netlify.app/editing/rich_content/custom_components)
+- [Code Snippets](https://boogi.netlify.app/editing/rich_content/snippets)
+- [Embeds](https://boogi.netlify.app/editing/rich_content/embed)
+- [Emojis](https://boogi.netlify.app/editing/rich_content/emojis)
+
+## Building
+
+### Remote build / pushing to Live
+
+Pushing updates to the `public-docs` repo triggers a rebuild of the [Public Docs](https://sdm-content-style-guide.netlify.app) site, which takes ~4 minutes to fully build and deploy.
+
+```bash
+git add .
+git commit -m "Your commit message here"
+git push
+```
+
+### Local build
+
+You can also build a local application package ready for deployment:
+
+```bash
+boogi build
+```
+
+The built package will be created in `public` directory.
+
+## About
+
+This app was created with [BooGi](https://boogi.netlify.app).  BooGi is a Gatsby app, and therefore built on React.
+
+## Features
+
+- Write using Markdown / [MDX](https://github.com/mdx-js/mdx)
+- GitBook-like style theme, inspired by https://docs.gitbook.com/
+- light / dark mode themes
+- responsive design with mobile / tablet support
+- rich-content and rich-text features like text formatting, graphs and diagrams,
+  quotes, columnar layout, emojis, highlights, live code editor,
+  syntax highlighting, external code snippets and many many more!
+- draft pages
+- search integration with [Algolia](https://www.algolia.com)
+- local search (search in a browser without need to integrate with Algolia)
+- Progressive Web App which can work offline
+- integration with Google Analytics
+- full screen mode
+- Search Engine Optimization (_SEO_) friendly
+- RSS feed
+- easy way to edit content on Gitlab, Github or Bitbucket
+- custom CLI to easily initialize and develop BooGi app
+- easy deployment on platform of your choice
+
+
+## Create new Netlify instance
+
+On the off chance you'd like to create a brand new instance of the style guide, you can deploy directly to Netlify with this awesome little button.
+
+[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/strongdm/content-style-guide)
+

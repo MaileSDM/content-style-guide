@@ -122,8 +122,10 @@ These words can be slippery. Here's how we write them. (If it is not on this lis
 ### O
 
 - OK
+- offboarding (n.)
 - offline (adj., n.)
 - omnichannel (adj.)
+- onboarding (n.)
 - online (adj., n.)
 - OpenID Connect (OIDC) (n.)
 - opt-in (adj., n.)
@@ -145,6 +147,8 @@ These words can be slippery. Here's how we write them. (If it is not on this lis
 ### R
 
 - RabbitMQ (n.)
+- real-time (adj.)
+- real time (n.)
 - Reply-to name (in.; in reference to email)
 - retweet (n., v.)
 - Rsyslog (n.)
